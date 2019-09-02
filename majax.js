@@ -1,8 +1,16 @@
 function getData(){
-  var text = '{"employees":[' +
-'{"firstName":"John","lastName":"Doe" },' +
-'{"firstName":"Anna","lastName":"Smith" },' +
-'{"firstName":"Peter","lastName":"Jones" }]}';
+  var text = '{"
+  employees":[' +
+'{"firstName":"Sarath",
+  "lastName":"Shyamson" },' +
+'{"firstName":"Fredy",
+  "lastName":"John" },' +
+'{"firstName":"Evans",
+  "lastName":"Thomas" },' +
+'{"firstName":"Lewellyn",
+"lastName":"Monsingh" },' +
+'{"firstName":"Clemant",
+"lastName":"Jebakumar" }]}';
 
 obj = JSON.parse(text);
 document.write(obj.employees[1].firstName + " " + obj.employees[1].lastName);
