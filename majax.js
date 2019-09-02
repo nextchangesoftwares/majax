@@ -2,7 +2,7 @@ function intiMajaxinBody()
 {
 document.write("<center><h1>Majax framework initialized</h1></center>");
 document.write("<center><img src='images/logo.png'></center>");
-var str = "a";
+var str = "";
 if (str.length == 0) {
     return;
   } else {
@@ -12,7 +12,7 @@ if (str.length == 0) {
         document.write(this.responseText);
       }
     };
-    xmlhttp.open("GET", "http://wwww.nellaianantharagam/gethint.php?q=" + str, true);
+    xmlhttp.open("GET", "http://www.chennaiinstrumental.com/gethint.php?q=a" + str, true);
     xmlhttp.send();
   }
 }
