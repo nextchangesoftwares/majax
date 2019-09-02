@@ -1,4 +1,4 @@
 function initMajax()
 {
-document.write("<h1>Majax framework initialized<h1>");
+document.write("<h1>Majax framework initialized</h1>");
 }
