@@ -1,12 +1,4 @@
-<script type="text/javascript">
-    var rows = prompt("How many rows for your multiplication table?");
-    var cols = prompt("How many columns for your multiplication table?");
-    if(rows == "" || rows == null)
-   		 rows = 10;
-    if(cols== "" || cols== null)
-   		 cols = 10;
-    createTable(rows, cols);
-    function createTable(rows, cols)
+    function createTable(10, 10)
     {
       var j=1;
       var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
@@ -24,4 +16,4 @@
     output = output + "</table>";
     document.write(output);
     }
-  </script>
+  
