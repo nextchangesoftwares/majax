@@ -1,3 +1,8 @@
+function getDate(){
+var output = new Date();
+document.write(output);
+}
+
 function doMultiply(p1, p2) {
   var output=1;
   output = p1 * p2;  
