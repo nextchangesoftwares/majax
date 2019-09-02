@@ -1,3 +1,12 @@
+function getData(){
+  var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+obj = JSON.parse(text);
+document.write(obj.employees[1].firstName + " " + obj.employees[1].lastName);
+}
 function getDate(){
 var output = new Date();
 document.write(output);
@@ -6,7 +15,7 @@ document.write(output);
 function doMultiply(p1, p2) {
   var output=1;
   output = p1 * p2;  
-  document.write(output)// The function returns the product of p1 and p2
+  document.write(output);// The function returns the product of p1 and p2
 }
 
 function createTable()
