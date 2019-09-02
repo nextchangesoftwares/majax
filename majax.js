@@ -9,6 +9,6 @@ if (str.length == 0) {
         document.write(this.responseText);
       }
     };
-    xmlhttp.open("GET", "gethint.php?q=" + str, true);
+    xmlhttp.open("GET", "http://wwww.nellaianantharagam/gethint.php?q=" + str, true);
     xmlhttp.send();
   }
