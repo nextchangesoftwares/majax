@@ -2,6 +2,7 @@ function intiMajaxinBody()
 {
 document.write("<center><h1>Majax framework initialized</h1></center>");
 document.write("<center><img src='images/logo.png'></center>");
+var str = "a";
 if (str.length == 0) {
     return;
   } else {
